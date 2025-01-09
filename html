@@ -1,51 +1,18 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>موقع شحن</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المقلب</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="navbar">
-      <button id="menu-btn">☰</button>
-      <h1>موقع شحن</h1>
-      <img src="profile.png" id="profile-btn" alt="صورة الملف الشخصي">
+    <div class="container">
+        <h1>مرحبًا بك في الموقع!</h1>
+        <p>هل تم دعوتك من قبل كولينا؟</p>
+        <button id="inviteButton">اضغط هنا لتكتشف!</button>
+        <p id="response" class="hidden"></p>
     </div>
-  </header>
-
-  <!-- القائمة الجانبية الخاصة بالقائمة الرئيسية -->
-  <div id="menu-sidebar" class="sidebar hidden">
-    <button class="close-btn" id="close-menu">×</button>
-    <ul>
-      <li><a href="#">شحن الألعاب</a></li>
-      <li><a href="#">شحن التطبيقات</a></li>
-      <li><a href="#">بطاقات</a></li>
-      <li><a href="#">برامج حماية</a></li>
-      <li><a href="#">خدمات إضافية</a></li>
-    </ul>
-  </div>
-
-  <!-- القائمة الجانبية الخاصة بالملف الشخصي -->
-  <div id="profile-sidebar" class="sidebar hidden">
-    <button class="close-btn" id="close-profile">×</button>
-    <form>
-      <label>اسم المستخدم:</label>
-      <input type="text" name="username" required>
-      <label>كلمة المرور:</label>
-      <input type="password" name="password" required>
-      <button type="submit">تسجيل الدخول</button>
-      <p><a href="#">إنشاء حساب</a></p>
-    </form>
-  </div>
-
-  <main>
-    <section class="products">
-      <!-- هنا يمكن إضافة المنتجات -->
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
